@@ -1,0 +1,139 @@
+   <nav class="menu-subtitle" data-menu-anima="fade-in">
+        <div class="container">
+            <div class="menu-brand">
+                <a href="#">
+                    <img height="200"  class="logo-default scroll-hide" src="../../img/logo.png" alt="logo" />
+                    <img height="200" class="logo-retina scroll-hide" src="../../img/logo.png" alt="logo" />
+                    <img height="200" class="logo-default scroll-show" src="../../logo.png" alt="logo" />
+                    <img height="200" class="logo-retina scroll-show" src="../../logo.png" alt="logo" />
+                </a>
+            </div>
+            <i class="menu-btn"></i>
+            <div class="menu-cnt">
+                <ul id="main-menu">
+                    <li>
+                        <a href="/">Home <span>Welcome</span></a>
+    
+                    </li>
+                    <li class="dropdown">
+                        <a href="/about">About <span>Main areas</span></a>
+                        <ul>
+                            <li class="dropdown-submenu">
+                                <a  href="/about">About</a>
+                                <ul>
+                                    <li><a href="/about">About</a></li>
+                                    <li><a href="team.html">Team</a></li>
+                                    <li><a href="history.html">History</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a href="#">Services</a>
+                                <ul>
+                                    <li><a href="service-1.html">Security audits</a></li>
+                                    <li><a href="service-2.html">Artificial intelligence</a></li>
+                                    <li><a href="service-3.html">Bots and support</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a>Others</a>
+                                <ul>
+                                    <li><a href="prices.html">Prices</a></li>
+                                    <li><a href="faq.html">Faq</a></li>
+                                    <li><a href="events.html">Events</a></li>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="career.html">Career</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="elements/components/buttons.html">Elements</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                     <li  class="dropdown">
+                        <a href="/about">Services <span>What we offer</span></a>
+                        <ul>
+                            {{#each site.services}}
+                              <li><a href="service-1.html">{{this}}</a></li>
+                            
+                            {{/each}}
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Projects <span>Our clients</span></a>
+                        <ul>
+                            <li class="dropdown-submenu">
+                                <a>Projects list</a>
+                                <ul>
+                                    <li><a href="projects-1.html">Projects one</a></li>
+                                    <li><a href="projects-2.html">Projects two</a></li>
+                                    <li><a href="projects-3.html">Projects three</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a>Project details</a>
+                                <ul>
+                                    <li><a href="project-1.html">Project details one</a></li>
+                                    <li><a href="project-2.html">Project details two</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                   
+                    <li>
+                        <a href="/contact">Contacts <span>Write us</span></a>
+                     
+                    </li>
+                </ul>
+                <div class="menu-right">
+                    <div class="shop-menu-cnt">
+                        <i></i>
+                        <div class="shop-menu">
+                            <ul class="shop-cart">
+                                <li class="cart-item">
+                                    <img src="http://via.placeholder.com/300x208" alt="">
+                                    <div class="cart-content">
+                                        <h5>Adobe XD Tutorial</h5>
+                                        <span class="cart-quantity">
+                                            1 x $99.00
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="cart-item">
+                                    <img src="http://via.placeholder.com/300x208" alt="">
+                                    <div class="cart-content">
+                                        <h5>Professional Adobe XD</h5>
+                                        <span class="cart-quantity">
+                                            1 x $99.00
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <p class="cart-total">
+                                Subtotal: <span>$299.00</span>
+                            </p>
+                            <p class="cart-buttons">
+                                <a href="#" class="cart-view">View Cart</a>
+                                <a href="#" class="cart-checkout">Checkout</a>
+                            </p>
+                        </div>
+                    </div>
+                    <form role="search" method="get" id="searchform" class="search-btn">
+                        <div class="search-box-menu">
+                            <input type="text" placeholder="Search ...">
+                            <i></i>
+                        </div>
+                    </form>
+                    <ul class="lan-menu">
+                        <li class="dropdown">
+                            <a href="#"><img src="media/en.png" alt="lang" />EN </a>
+                            <ul>
+                                <li><a href="#"><img src="media/it.png" alt="lang" />IT</a></li>
+                                <li><a href="#"><img src="media/es.png" alt="lang" />ES</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
